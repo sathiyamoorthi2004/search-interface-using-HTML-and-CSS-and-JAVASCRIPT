@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Interface</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="search-container">
+        <div class="dropdown">
+            <button class="dropbtn">Everything</button>
+            <div class="dropdown-content">
+                <a href="#" onclick="updatePlaceholder('Everything')">Everything</a>
+                <a href="#" onclick="updatePlaceholder('Software Development')">Software Development</a>
+                <a href="#" onclick="updatePlaceholder('Web Development')">Web Development</a>
+                <a href="#" onclick="updatePlaceholder('Data Analyst')">Data Analyst</a>
+                <a href="#" onclick="updatePlaceholder('IT Consultant')">IT Consultant</a>
+                <a href="#" onclick="updatePlaceholder('Network Administrator')">Network Administrator</a>
+            </div>
+        </div>
+        <input type="text" class="search-input" id="searchInput" placeholder="Search Anything">
+        <button class="search-button">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                <path d="M10 2a8 8 0 0 1 5.29 13.71l5 5a1 1 0 0 1-1.42 1.42l-5-5A8 8 0 1 1 10 2zm0 2a6 6 0 1 0 4.24 10.24A6 6 0 0 0 10 4z"/>
+            </svg>
+        </button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
